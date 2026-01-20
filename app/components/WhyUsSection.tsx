@@ -35,10 +35,10 @@ export default function WhyUsSection() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="mb-8 max-w-2xl">
           <h2 className="text-2xl font-semibold tracking-tight text-slate-900">
-            Why choose FreshMart?
+            Why choose GenieZap?
           </h2>
           <p className="mt-2 text-sm text-slate-600">
-            FreshMart is designed for busy individuals and families who want
+            GenieZap is designed for busy individuals and families who want
             reliable grocery delivery, transparent pricing and secure digital
             payments.
           </p>

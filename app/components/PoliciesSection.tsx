@@ -14,7 +14,7 @@ export default function PoliciesSection() {
             Privacy Policy
           </h2>
           <p className="mt-3 text-sm text-slate-700">
-            This Privacy Policy explains how FreshMart ("we", "us", "our")
+            This Privacy Policy explains how GenieZap ("we", "us", "our")
             collects, uses and protects personal information of users of our
             mobile app and website in India.
           </p>
@@ -33,7 +33,7 @@ export default function PoliciesSection() {
               <span className="font-semibold">Payments:</span> online payments
               are processed securely through Razorpay. Card and payment
               information is handled by Razorpay as per their policies and is
-              not stored by FreshMart.
+              not stored by GenieZap.
             </li>
             <li>
               <span className="font-semibold">Data sharing:</span> we may share
@@ -44,10 +44,10 @@ export default function PoliciesSection() {
               <span className="font-semibold">Contact:</span> for any privacy
               concerns, write to us at{" "}
               <a
-                href="mailto:support@freshmart.in"
+                href="mailto:support@geniezap.in"
                 className="text-emerald-700 hover:underline"
               >
-                support@freshmart.in
+                support@geniezap.in
               </a>
               .
             </li>
@@ -65,7 +65,7 @@ export default function PoliciesSection() {
 
   <p className="mt-3 text-sm text-slate-700">
     This policy outlines how cancellations, refunds, and returns are handled for
-    orders placed through FreshMart.
+    orders placed through GenieZap.
   </p>
 
   <ul className="mt-3 space-y-2 text-sm text-slate-700">
@@ -106,10 +106,10 @@ export default function PoliciesSection() {
       <span className="font-semibold">Contact for Refunds:</span>{" "}
       For any cancellation or refund request, email us at{" "}
       <a
-        href="mailto:support@freshmart.in"
+        href="mailto:support@geniezap.in"
         className="text-emerald-700 hover:underline"
       >
-        support@freshmart.in
+        support@geniezap.in
       </a>{" "}
       or message us on WhatsApp at +91 9876543210.
     </li>
@@ -127,12 +127,12 @@ export default function PoliciesSection() {
             Terms & Conditions
           </h2>
           <p className="mt-3 text-sm text-slate-700">
-            By using the FreshMart mobile application or website, you agree to
+            By using the GenieZap mobile application or website, you agree to
             the following terms and conditions.
           </p>
           <ul className="mt-3 space-y-2 text-sm text-slate-700">
             <li>
-              <span className="font-semibold">Service scope:</span> FreshMart
+              <span className="font-semibold">Service scope:</span> GenieZap
               provides a platform for customers in India to order groceries from
               partner stores and have them delivered.
             </li>
@@ -159,7 +159,7 @@ export default function PoliciesSection() {
               value of the order in such cases.
             </li>
             <li>
-              <span className="font-semibold">Changes to terms:</span> FreshMart
+              <span className="font-semibold">Changes to terms:</span> GenieZap
               may update these terms and policies from time to time. Updated
               versions will be made available within the app or on the website.
             </li>

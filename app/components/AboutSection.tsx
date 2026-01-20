@@ -7,10 +7,10 @@ export default function AboutSection() {
       <div className="mx-auto grid max-w-6xl gap-8 px-4 sm:px-6 lg:grid-cols-[1.2fr_minmax(0,1fr)] lg:items-start lg:gap-12 lg:px-8">
         <div>
           <h2 className="text-2xl font-semibold tracking-tight text-slate-900 sm:text-3xl">
-            How the FreshMart app works
+            How the GenieZap app works
           </h2>
           <p className="mt-4 text-sm text-slate-700 sm:text-base">
-            FreshMart is a dedicated online grocery delivery mobile application
+            GenieZap is a dedicated online grocery delivery mobile application
             built for customers in India. The app lets you browse groceries,
             add items to your cart, choose your delivery address and pay
             securely online using Razorpay.

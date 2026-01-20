@@ -17,7 +17,7 @@ export default function ScreenshotsSection() {
             App screenshots
           </h2>
           <p className="mt-2 text-sm text-slate-600">
-            Real app UI preview from FreshMart.
+            Real app UI preview from GenieZap.
           </p>
         </div>
 

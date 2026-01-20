@@ -10,7 +10,7 @@ export default function ContactSection() {
             Contact & business details
           </h2>
           <p className="mt-2 text-sm text-slate-600">
-            FreshMart is an online grocery delivery service based in India.
+            GenieZap is an online grocery delivery service based in India.
             Please contact us for any questions related to your orders,
             payments or account.
           </p>
@@ -18,10 +18,10 @@ export default function ContactSection() {
             <p>
               <span className="font-semibold">Email:</span>{" "}
               <a
-                href="mailto:support@freshmart.in"
+                href="mailto:support@geniezap.in"
                 className="text-emerald-700 hover:underline"
               >
-                support@freshmart.in
+                support@geniezap.in
               </a>
             </p>
             <p>

@@ -24,6 +24,37 @@ export default function PoliciesSection() {
               may collect your name, contact details, delivery addresses, order
               history and limited device information to provide our services.
             </li>
+            
+<li className="mt-4">
+  <span className="font-semibold">Location Data:</span> We collect and use
+  location information to provide delivery and address-related services.
+  <ul className="list-disc ml-6 mt-2 space-y-1">
+    <li>
+      <span className="font-medium">What we collect:</span> Approximate
+      location (city/area) and precise location (GPS) only when permission is
+      granted.
+    </li>
+    <li>
+      <span className="font-medium">Why we collect it:</span> To detect your
+      delivery address, show available products/services in your area,
+      calculate delivery availability, and improve delivery accuracy.
+    </li>
+    <li>
+      <span className="font-medium">How it is used:</span> Used only within the
+      app for order and delivery services and not used for advertising
+      purposes.
+    </li>
+    <li>
+      <span className="font-medium">Sharing:</span> Location data may be shared
+      with delivery partners only to complete your order. We do not sell
+      location data.
+    </li>
+    <li>
+      <span className="font-medium">Control:</span> Users can deny or disable
+      location permission anytime from device settings.
+    </li>
+  </ul>
+</li>
             <li>
               <span className="font-semibold">Use of information:</span> we use
               this data to process orders, arrange delivery, provide customer

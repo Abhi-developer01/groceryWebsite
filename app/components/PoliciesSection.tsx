@@ -10,9 +10,17 @@ export default function PoliciesSection() {
           id="privacy-policy"
           className="rounded-2xl bg-slate-50 p-5 ring-1 ring-slate-200"
         >
-          <h2 className="text-xl font-semibold tracking-tight text-slate-900">
-            Privacy Policy
-          </h2>
+          <div className="flex items-center justify-between">
+            <h2 className="text-xl font-semibold tracking-tight text-slate-900">
+              Privacy Policy
+            </h2>
+            <a
+              href="/privacy-policy"
+              className="text-sm font-medium text-emerald-700 hover:text-emerald-800 hover:underline"
+            >
+              View Full Policy →
+            </a>
+          </div>
           <p className="mt-3 text-sm text-slate-700">
             This Privacy Policy explains how GenieZap ("we", "us", "our")
             collects, uses and protects personal information of users of our

@@ -20,7 +20,7 @@ export default function Hero() {
           <p className="text-base text-slate-700 sm:text-lg">
             Order fresh groceries in a few taps. Browse items, add to cart, pay
             securely with Razorpay and get your order at your doorstep within
-            30–60 minutes (depending on your location).
+            10–15 minutes (depending on your location).
           </p>
           <ul className="space-y-2 text-sm text-slate-700">
             <li className="flex gap-2">

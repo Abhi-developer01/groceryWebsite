@@ -18,7 +18,7 @@ export default function AboutSection() {
           <p className="mt-3 text-sm text-slate-700 sm:text-base">
             Once your order is confirmed, our partner stores pack your items and
             a delivery partner brings them to your doorstep, typically within
-            30–60 minutes depending on your location and time of day.
+            10–15 minutes depending on your location and time of day.
           </p>
         </div>
         <div className="rounded-2xl bg-slate-50 p-5 ring-1 ring-slate-200">

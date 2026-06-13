@@ -89,7 +89,19 @@ export default function DownloadPage() {
                   <span className="mt-0.5 h-5 w-5 flex-shrink-0 rounded-full bg-emerald-100 text-center text-xs font-semibold text-emerald-700">
                     ✓
                   </span>
-                  <span>Fast delivery within 30–60 minutes</span>
+                  <span>Cash on Delivery Available</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="mt-0.5 h-5 w-5 flex-shrink-0 rounded-full bg-emerald-100 text-center text-xs font-semibold text-emerald-700">
+                    ✓
+                  </span>
+                  <span>Get ₹50 OFF on your first order</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="mt-0.5 h-5 w-5 flex-shrink-0 rounded-full bg-emerald-100 text-center text-xs font-semibold text-emerald-700">
+                    ✓
+                  </span>
+                  <span>Fast delivery within 10–15 minutes</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="mt-0.5 h-5 w-5 flex-shrink-0 rounded-full bg-emerald-100 text-center text-xs font-semibold text-emerald-700">

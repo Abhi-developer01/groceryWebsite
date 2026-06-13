@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 
+
 export default function Hero() {
   return (
     <section
@@ -35,26 +36,81 @@ export default function Hero() {
               <span>Online payments processed securely via Razorpay.</span>
             </li>
           </ul>
-          <div className="flex flex-wrap items-center gap-4 pt-1">
-            <button className="inline-flex items-center gap-3 rounded-xl bg-emerald-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-emerald-700">
-              <span className="text-lg">📱</span>
+          {/* <div className="flex flex-wrap items-center gap-4 pt-1">
+            <button className="inline-flex items-center gap-3 rounded-xl bg-emerald-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-emerald-700"> */}
+              {/* <span className="text-lg">📱</span> */}
+              {/* <a
+                href="https://play.google.com/store/apps/details?id=com.grocery_app1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="/images/googleplay.png"
+                  alt="Get it on Google Play"
+                  className="h-14 w-auto"
+                />
+              </a>
               <div className="flex flex-col items-start leading-tight">
-                <span className="text-[10px] uppercase tracking-[0.16em] text-emerald-100">
-                  Coming soon
-                </span>
+                <span className="text-[10px] uppercase tracking-[0.16em] text-emerald-100"> */}
+                  {/* Coming soon */}
+                {/* </span>
                 <span>Download on Android</span>
               </div>
             </button>
-            <button className="inline-flex items-center gap-3 rounded-xl bg-slate-900 px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-black">
-              <span className="text-lg">🍏</span>
+            <button className="inline-flex items-center gap-3 rounded-xl bg-slate-900 px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-black"> */}
+              {/* <span className="text-lg">🍏</span> */}
+              {/* <a href="#">
+                <img
+                  src="/images/appstore.png"
+                  alt="Download on the App Store"
+                  className="h-14 w-auto"
+                />
+              </a>
               <div className="flex flex-col items-start leading-tight">
                 <span className="text-[10px] uppercase tracking-[0.16em] text-slate-300">
                   Coming soon
                 </span>
                 <span>Download on iOS</span>
               </div>
+
             </button>
-          </div>
+          </div> */}
+          <div className="flex flex-wrap items-center gap-4 pt-1">
+  {/* Android */}
+  <a
+    href="/download"
+    className="flex w-[280px] items-center gap-3 rounded-xl bg-emerald-600 px-4 py-3 text-white shadow-sm transition hover:bg-emerald-700"
+  >
+    <img
+      src="/images/googleplay.png"
+      alt="Get it on Google Play"
+      className="h-12 w-auto flex-shrink-0"
+    />
+
+    <div className="flex flex-col leading-tight">
+      <span className="text-xs uppercase tracking-wider text-emerald-100">
+        {/* Available on */}
+      </span>
+      <span className="font-semibold">Download on Android</span>
+    </div>
+  </a>
+
+  {/* iOS */}
+  <div className="flex w-[280px] items-center gap-3 rounded-xl bg-slate-900 px-4 py-3 text-white shadow-sm">
+    <img
+      src="/images/appstore.png"
+      alt="Download on the App Store"
+      className="h-12 w-auto flex-shrink-0"
+    />
+
+    <div className="flex flex-col leading-tight">
+      <span className="text-xs uppercase tracking-wider text-slate-300">
+        Coming Soon
+      </span>
+      <span className="font-semibold">Download on iOS</span>
+    </div>
+  </div>
+</div>
         </div>
 
         <div className="flex justify-center lg:justify-end">

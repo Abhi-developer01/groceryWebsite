@@ -187,6 +187,9 @@ export default function PrivacyPolicyPage() {
             <Link href="/privacy-policy" className="text-emerald-700">
               Privacy Policy
             </Link>
+            <Link href="/download" className="rounded-lg bg-emerald-600 px-4 py-2 text-white hover:bg-emerald-700">
+              Download App
+            </Link>
           </nav>
         </div>
       </header>

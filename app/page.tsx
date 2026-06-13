@@ -50,6 +50,9 @@ export default function Home() {
             <a href="#contact" className="hover:text-emerald-700">
               Contact
             </a>
+            <a href="/download" className="rounded-lg bg-emerald-600 px-4 py-2 text-white hover:bg-emerald-700">
+              Download App
+            </a>
           </nav>
         </div>
       </header>

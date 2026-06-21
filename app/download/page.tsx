@@ -85,7 +85,7 @@ export default function DownloadPage() {
     className="h-10 w-auto"
   />
 
-  <span className="text-lg font-bold">
+  <span className="text-base font-bold">
     Download App
   </span>
 

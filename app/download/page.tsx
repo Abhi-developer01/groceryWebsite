@@ -55,7 +55,7 @@ export default function DownloadPage() {
           </div>
 
           <div className="mx-auto max-w-md space-y-6">
-            <a
+            {/* <a
               href="https://play.google.com/store/apps/details?id=com.grocery_app1"
               target="_blank"
               rel="noopener noreferrer"
@@ -72,7 +72,38 @@ export default function DownloadPage() {
                 </span>
                 <span className="font-semibold">Google Play</span>
               </div>
-            </a>
+            </a> */}
+            <a
+  href="https://play.google.com/store/apps/details?id=com.grocery_app1"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="group mx-auto flex w-full max-w-sm items-center justify-center gap-3 rounded-2xl bg-gradient-to-r from-emerald-500 to-emerald-700 px-6 py-4 text-white shadow-xl transition-all duration-300 hover:scale-105"
+>
+  <img
+    src="/images/googleplay.png"
+    alt="Google Play"
+    className="h-10 w-auto"
+  />
+
+  <span className="text-lg font-bold">
+    Download App
+  </span>
+
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    className="h-6 w-6 transition-transform duration-300 group-hover:translate-y-1"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14"
+    />
+  </svg>
+</a>
 
             <div className="rounded-xl bg-slate-50 p-6 ring-1 ring-slate-200">
               <h2 className="mb-4 text-lg font-semibold text-slate-900">
